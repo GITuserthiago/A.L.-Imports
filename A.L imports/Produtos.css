@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap%27');
+
+* {
+    font-family: 'Lora', serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .header{
+
+    background-color: #252525;
+    display: flex;
+    flex-direction: row;
+    color: #d5bc60;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 50px;
+
+  }
+
+  .logo-header{
+
+    width: 130px;
+    padding-left: 20px;
+    
+  }
+
+  .pesquisa{
+
+    background-color: #252525;
+    color: #f5f4f5;
+    
+
+  }
+  
+  /* The sidepanel menu */
+.sidepanel {
+  height: 100%; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #252525; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #d5bc60;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #252525;
+  color: #d5bc60;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+  /*---------------------------------header----------------------*/
+
+.main{
+
+background-color: #f1f1f1;
+
+}
+
+  .titulos h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.titulos h3{
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+
+.produtos{
+
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.produtos a{
+
+  text-decoration: none;
+  color: #252525;
+  
+}
+
+.caixa_produto{
+
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 295px;
+    height: 395px;
+    padding: 10px;
+    padding-top: 50px;
+    padding-right: 20px;
+    margin-left: 80px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    transition: 500ms;
+    
+
+}
+
+.caixa_produto{
+  background-color: white;
+  width: 295px;
+  height: 395px;
+  padding: 10px;
+  margin-left: 30px;
+  border-radius: 20px;
+  padding-right: 20px;
+}
+
+
+.caixa_produto h2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.caixa_produto h3{
+  text-decoration: line-through;
+  color: #444;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.caixa_produto h4{
+  margin-left: 20px;
+  font-size: 26px;
+}
+
+.caixa_produto p{
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.caixa_produto:hover{
+
+  transition: 500ms;
+  box-shadow: 0 0 1em #444;
+}
+
+
+.imagem_produtos{
+  width: 280px;
+  padding-top: 10px;
+}
+
+  /*---------------------------------footer----------------------*/
+
+  .info{
+
+    
+    background-color: #252525;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 50px 0px 50px;
+
+
+}
+
+.titulos_rodape{
+
+    color: #d5bc60;
+    padding-bottom: 10px;
+}
+
+.links-rodape{
+
+    padding-top: 10px
+}
+
+.pagamento{
+
+    width: 400px;
+}
+
+.rodape-copyright{
+
+    background-color: #252525;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.rodape-logo{
+
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.logo-rodape{
+
+
+    width: 100px;
+}
+
+
+
+

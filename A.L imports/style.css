@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap%27');
+
+* {
+    font-family: 'Lora', serif;
+}
+
+.cabecalho{
+    background-color: #252525;
+}
+
+.logo{
+    width: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: #d5bc60;
+}
+
+a:hover{ 
+    color:white;
+    transition: 500ms;
+}
+
+#linkcabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#linkcabecalho li {
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+
+.landingpage{
+    background-color: #252525;
+    display: flex;
+    flex-direction: row;
+    padding-top: 90px;
+
+}
+
+.bloco_de_texto {
+
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.titulo{
+    color: #d5bc60;
+    font-size: 50px;
+    font-weight: bold;
+}
+.subtitulo{
+    color: white;
+    font-size: 20px;
+}
+.produto_de_apresentacao{
+    width: 70%;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
+/*-----------------------------*/
+
+.produtos{
+    background-color: #f6f4f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.produtos_coluna{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_produtos{
+    color: #d5bc60;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #f6f4f5;
+}
+
+.produto1{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    padding-right: 20px;
+    
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.textoproduto1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-right: 35px;
+}
+
+.titulo_produto{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.subtitulo_produto{
+    margin-top: 10px;
+}
+
+.bnt_produto{
+   margin-top: 50px;
+   border: none;
+   color: white;
+   background-color: #d5bc60;
+   border-radius: 20px;
+   padding: 10px;
+   font-size: 16px;
+   width: 140px;
+   transition: 1000ms;
+}
+
+.bnt_produto:hover{
+    transition: 1000ms;
+    color: black;
+    cursor: pointer;
+}
+
+.bnt_produto:active{
+    transition: 10ms;
+    color: white;
+}
+
+.produto2{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.textoproduto2{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-right: 35px;
+}
+
+.produto3{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+    padding-top: 50px;
+    padding-right: 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.textoproduto3{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-right: 50px;
+}
+
+.imagem_produto_1{
+    width: 30%;   
+}
+.imagem_produto_2{
+    width: 50%;
+}
+.imagem_produto_3{
+    width: 70%;
+}
+
+.rodape_produtos{
+    background-color: black;
+}
+
+.lista_rodape_produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.imagens_rodape_produtos{
+    width: 70px;
+}
+
+.imagens_rodape_produtos_samsung{
+    width: 100px;
+}
+
+.imagens_rodape_produtos_samsung_colorido{
+    margin-left: 500px;
+    position: absolute;
+    opacity: 100%;
+    width: 100px;
+    transition: 500ms;
+}
+
+.imagens_rodape_produtos_samsung_colorido:hover{
+    opacity: 100%;
+    transition: 500ms;
+}
+
+.imagem_rodape_produto_xiaomi_colorido{
+    
+   margin-left: 750px;
+    position: absolute;
+    opacity: 100%;
+    width: 60px;
+    transition: 500ms;
+}
+
+.imagem_rodape_produto_xiaomi_colorido:hover{
+    opacity: 100%;
+    transition: 500ms;
+}
+
+.imagem_rodape_produto_motorola_colorido{
+    margin-left: 1000px;
+    position: absolute;
+    opacity: 100%;
+    width: 60px;
+    transition: 500ms;
+}
+
+.imagem_rodape_produto_motorola_colorido:hover{
+    opacity: 100%;
+    transition: 500ms;
+}
+
+.cadastro{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: #f6f4f5;
+}
+
+.texto_cadastro{
+    display: flex;
+    flex-direction: column;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+
+.titulo_cadastro{
+    color: #d5bc60;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    
+    
+    
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+
+.caixa_cadastro{
+    border-color: #d5bc60;
+    width: 400px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.botao_cadastro{
+    border-color: #d5bc60;
+    background-color: #d5bc60;
+    color: white;
+
+}
+
+.celular_whats{
+    width: 280px;
+    padding-right: 260px;
+    padding-top: 20px
+    ;
+}
+
+.info{
+
+    
+    background-color: #252525;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 50px 0px 50px;
+
+
+}
+
+.titulos_rodape{
+
+    color: #d5bc60;
+    padding-bottom: 10px;
+}
+
+.links-rodape{
+
+    padding-top: 10px
+}
+
+.pagamento{
+
+    width: 400px;
+}
+
+.rodape-copyright{
+
+    background-color: #252525;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.rodape-logo{
+
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.logo-rodape{
+
+
+    width: 100px;
+}
