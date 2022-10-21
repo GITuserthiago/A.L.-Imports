@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap%27');
+
+*{
+
+margin: 0;
+padding: 0;
+
+}
+
+* {
+    font-family: 'Lora', serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .header{
+
+    background-color: #252525;
+    display: flex;
+    flex-direction: row;
+    color: #d5bc60;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 50px;
+
+  }
+
+  .logo-header{
+
+    width: 130px;
+    padding-left: 20px;
+    
+  }
+
+  .pesquisa{
+
+    background-color: #252525;
+    color: #f5f4f5;
+    
+
+  }
+  
+  /* The sidepanel menu */
+.sidepanel {
+  height: 100%; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #252525; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #d5bc60;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #252525;
+  color: #d5bc60;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+ /*---------------------------------header----------------------*/
+
+  /*---------------------------------titulo----------------------*/
+
+
+ .titulo{
+
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+ }
+
+   /*---------------------------------titulo----------------------*/
+
+     /*---------------------------------produto----------------------*/
+
+main{
+
+  background-color: #f5f4f5;
+}
+
+.produto_container_maior{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-bottom: 30px;
+}
+
+.container_estrela{
+  display: flex;
+  flex-direction: row;
+}
+
+.container_preco{
+  background-color: white;
+  border-radius: 20px;
+  width: 300px;
+  height: 420px;
+  margin-left: 100px;
+  padding: 20px;
+}
+
+.botao_compra{
+  border: none;
+  color: white;
+  background-color: #d5bc60;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 40px;
+  width: 250px;
+  transition: 1000ms;
+  text-decoration: none;
+  margin-top: 100px;
+  margin-bottom: 5px;
+}
+
+.botao_compra:hover{
+  transition: 1000ms;
+  color: black;
+  cursor: pointer;
+}
+
+.botao_compra:active{
+  transition: 10ms;
+  color: white;
+}
+
+.texto_container h3{
+  color: #444;
+  text-decoration: line-through;
+  font-size: 25px;
+}
+
+.texto_container h2{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.texto_container h4{
+  font-weight: bold;
+}
+
+.texto_container p{
+  margin-bottom: 10px;
+}
+
+.texto_container a{
+  color: black;
+}
+
+.aviso{
+  font-size: 14px;
+}
+
+.estrela{
+  width: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+.main-produtos{
+  display: flex;
+  flex-direction: row;
+}
+
+.product-small-img img{
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  opacity: .6;
+  padding-bottom: 25px;
+}
+
+.product-small-img img:hover{
+  opacity: 1;
+}
+
+.product{
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+}
+
+.img-container img{
+  height: 440px;
+}
+
+.img-container{
+  padding: 10px;
+}
+
+/*---------------------------------info.produtos----------------------*/
+
+.info_produto{
+  background-color: #252525;
+  color: white;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.info_produto p{
+  text-align: justify;
+}
+
+.info_produto h2{
+color: #d5bc60;
+font-weight: bold;
+font-size: 30px;
+padding-bottom: 30px;
+}
+
+
+
+
+/*---------------------------------info.produtos----------------------*/
+/*--------------------------------ficha_tec----------------------*/
+
+.ficha_tec {
+  background-color: #f5f4f5;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+.ficha_tec h2{
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 30px;
+ 
+
+}
+
+.ficha_tec table{
+  
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid white;
+}
+
+th, td {
+  text-align:left;
+  padding: 16px;
+}
+
+.tabela td:first-child{
+  background-color: #e0dada;
+  padding: 10px;
+  border: solid 1px #f6f4f5;
+}
+
+.tabela td:last-child{
+  padding-left: 10px;
+}
+/*--------------------------------ficha_tec----------------------*/
+
+/*------------------------------preços----------------------*/
+
+.formas_de_pagemento{
+  background-color: #f6f4f5;
+  padding: 30px 100px 30px 100px;
+}
+
+.formas_de_pagemento h2{
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.titulacao_pagamento{
+  font-weight: bold;
+
+  color: #d5bc60;
+}
+
+.titulacao_pagamento td:first-child{
+  padding-bottom: 5px;
+  padding-bottom: 10px;
+}
+
+
+
+.titulacao_pagamento2 td{
+  font-weight: bold;
+}
+
+.tabela_pagamento td:first-child{
+  padding-bottom: 10px;
+}
+
+.espacamento2222222{
+  padding-left: 100px;
+}
+/*------------------------------preços----------------------*/
+ /*---------------------------------footer----------------------*/
+
+
+
+ .info{
+   
+    background-color: #252525;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 50px 0px 50px;
+
+}
+
+.titulos_rodape{
+
+    color: #d5bc60;
+    padding-bottom: 10px;
+}
+
+.links-rodape{
+
+    padding-top: 10px
+}
+
+.pagamento{
+
+    width: 400px;
+}
+
+.rodape-copyright{
+
+    background-color: #252525;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.rodape-logo{
+
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.logo-rodape{
+
+
+    width: 100px;
+}
